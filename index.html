@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Harvard University</title>
+    <title>HarvardX</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <!-- TOP NAVBAR -->
-    <ul class="nav nav-pills justify-content-end">
-        <li class="nav-item">
-            <a href="#" class="nav-link text-white bg-dark">Office of the Provost</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link text-white bg-dark">HARVARD.EDU</a>
-        </li>
-    </ul>
+    <!-- code inspired by example 3 on https://www.codeply.com/go/qhaBrcWp3v -->
+    <nav class="navbar navbar-light navbar-expand-md bg-dark justify-content-center">
+    <a href="#" class="navbar-brand d-flex w-50 mr-auto text-white">
+        <img src="http://www.carynesplin.com/wp-content/uploads/images/Harvard_Wreath_Logo_1.png" width="30" height="30" alt="">Harvard University
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white bg-dark">Office of the Provost</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white bg-dark">HARVARD.EDU</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <!-- HEADER -->
 
@@ -64,3 +75,25 @@
 
 </body>
 </html>
+
+
+
+
+<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarText">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Pricing</a>
+    </li>
+  </ul>
+  <span class="navbar-text">
+    Navbar text with an inline element
+</span>-->
